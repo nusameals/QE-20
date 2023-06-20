@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Authentication","Register User using a valid full name, email and password","FAILURE","2023-06-20T18:11:13.5133891+07:00[Asia/Krasnoyarsk]","0.0","4.3"
+"Authentication","Register Admin using a valid full name, email and password","FAILURE","2023-06-20T18:11:17.8335867+07:00[Asia/Krasnoyarsk]","0.0","0.67"
