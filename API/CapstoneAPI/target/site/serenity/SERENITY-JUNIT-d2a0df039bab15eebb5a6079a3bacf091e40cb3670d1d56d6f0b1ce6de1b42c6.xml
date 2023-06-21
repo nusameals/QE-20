@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Users started to use Nusameal" skipped="0" tests="3" time="8.22" timestamp="2023-06-21 09:20:37"><testcase name="Users register to Nusameal"/><testcase name="Users login to Nusameal correct email password"/><testcase name="Users login to Nusameal wrong email password"/></testsuite>
