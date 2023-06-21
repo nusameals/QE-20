@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Starter.CucumberTestSuite
+Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 10.084 s <<< FAILURE! - in Starter.CucumberTestSuite
-Authentication.Register User using a valid full name, email and password  Time elapsed: 4.556 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <404>.
-
-
-Authentication.Register Admin using a valid full name, email and password  Time elapsed: 0.69 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <404>.
-
-
-Authentication.Login with registered or correct email and password  Time elapsed: 0.097 s  <<< ERROR!
-java.lang.RuntimeException: Some exception during recording fields
-Caused by: java.net.ConnectException: Connection refused: connect
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.311 s - in starter.CucumberTestSuite
