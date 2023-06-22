@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.311 s - in starter.CucumberTestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.732 s <<< FAILURE! - in starter.CucumberTestSuite
+Users started to use Nusameal.Users register to Nusameal  Time elapsed: 6.886 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+

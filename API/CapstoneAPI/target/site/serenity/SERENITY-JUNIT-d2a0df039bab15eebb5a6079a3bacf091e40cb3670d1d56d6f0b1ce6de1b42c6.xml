@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Users started to use Nusameal" skipped="0" tests="3" time="8.22" timestamp="2023-06-21 09:20:37"><testcase name="Users register to Nusameal"/><testcase name="Users login to Nusameal correct email password"/><testcase name="Users login to Nusameal wrong email password"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Users started to use Nusameal" skipped="0" tests="3" time="8.29" timestamp="2023-06-22 02:44:43"><testcase name="Users register to Nusameal"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)&#13;
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/starter.stepdefinitions.NusamealStepDefinitions.userVerifyStatusCodeIs(NusamealStepDefinitions.java:50)&#13;
+✽.User verify status code is 200(file:///D:/capstone/QE-20/API/CapstoneAPI/src/test/resources/features/Authentication.feature:8)&#13;
+</system-err></testcase><testcase name="Users login to Nusameal correct email password"/><testcase name="Users login to Nusameal wrong email password"/></testsuite>

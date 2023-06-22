@@ -144,7 +144,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 21-06-2023 21:20</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 22-06-2023 14:44</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -201,9 +201,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="failing-color">
                                     Users register to Nusameal
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -302,7 +302,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                                Given User call an api "register" with method "POST" with payload below<br><table class='embedded'><thead><th>username</th><th>email</th><th>password</th><th>retype_password</th></thead><tbody><tr><td>disti5</td><td>disti51@email.com</td><td>disti3</td><td>disti3</td></tr></tbody></table>
+                                                Given User call an api "register" with method "POST" with payload below<br><table class='embedded'><thead><th>username</th><th>email</th><th>password</th><th>retype_password</th></thead><tbody><tr><td>disti10</td><td>disti500@email.com</td><td>disti303</td><td>disti303</td></tr></tbody></table>
                                         </span>
                             </a>
                             <span class="evidence">
@@ -311,7 +311,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">6s 354ms</span></td>
+                    <td width="100"><span class="top-level-step">6s 130ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -341,7 +341,7 @@
                     </td>
 
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">5s 536ms</span></td>
+                    <td width="100"><span class="nested-step">5s 468ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -375,16 +375,16 @@
                             <div class="card-body">
                                 <h4>Response</h4>
                                     <p>URL: http://testing.hopto.org/register</p>
-                                    <p>Status code: 200</p>
+                                    <p>Status code: 400</p>
                                     <p>Content Type: application/json</p>
                                     <h4>Request Headers</h4>
                                     <pre>Accept=*/*<br>Content-Type=application/json</pre>
                                     <h4>Content Body</h4>
-                                    <pre>{<br>    &quot;password&quot;: &quot;disti3&quot;,<br>    &quot;email&quot;: &quot;disti51@email.com&quot;,<br>    &quot;username&quot;: &quot;disti5&quot;,<br>    &quot;retype_password&quot;: &quot;disti3&quot;<br>}</pre>
+                                    <pre>{<br>    &quot;password&quot;: &quot;disti303&quot;,<br>    &quot;email&quot;: &quot;disti500@email.com&quot;,<br>    &quot;username&quot;: &quot;disti10&quot;,<br>    &quot;retype_password&quot;: &quot;disti303&quot;<br>}</pre>
                                     <h4>Response Headers</h4>
-                                    <pre>Content-Type: application/json; charset=UTF-8<br>Vary: Origin<br>Vary: Origin<br>Date: Wed, 21 Jun 2023 14:20:43 GMT<br>Content-Length: 47</pre>
+                                    <pre>Content-Type: application/json; charset=UTF-8<br>Vary: Origin<br>Vary: Origin<br>Date: Thu, 22 Jun 2023 07:44:47 GMT<br>Content-Length: 41</pre>
                                 <h4>Response Body</h4>
-                                    <pre>{<br>    &quot;message&quot;: &quot;Successfully create your account&quot;<br>}</pre>
+                                    <pre>{<br>    &quot;message&quot;: &quot;username is already Exists&quot;<br>}</pre>
                                     <h4>Response Cookies</h4>
                                     <pre></pre>
                             </div>
@@ -407,12 +407,12 @@
                             </table>
                         </td>
                     </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
 
                     <td width="50" class="step-icon">
                         <a name="1"></a>
                             <span style="margin-left: 20px;"
-                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a>
                                 </span>
                     </td>
 
@@ -426,13 +426,51 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">102ms</span></td>
+                    <td width="130"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">087ms</span></td>
                 </tr>
-            <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;400&gt;.<br></span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)<br />io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy:-1)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />starter.stepdefinitions.NusamealStepDefinitions.userVerifyStatusCodeIs(NusamealStepDefinitions.java:50)<br />✽.User verify status code is 200(file:///D:/capstone/QE-20/API/CapstoneAPI/src/test/resources/features/Authentication.feature:8)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
+            <tr class="test-FAILURE">
                     <td colspan="2"></td>
-                <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                <td width="100"><span class="top-level-step"><em>6.67s</em></span></td>
+                <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
+                <td width="100"><span class="top-level-step"><em>6.49s</em></span></td>
             </tr>
 
         </table>

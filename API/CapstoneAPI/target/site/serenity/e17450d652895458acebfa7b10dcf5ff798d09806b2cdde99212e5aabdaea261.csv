@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Users started to use Nusameal","Users register to Nusameal","SUCCESS","2023-06-21T21:20:37.3708007+07:00[Asia/Jakarta]","0.0","6.67"
+"Users started to use Nusameal","Users register to Nusameal","FAILURE","2023-06-22T14:44:43.6095467+07:00[Asia/Jakarta]","0.0","6.49"
+"Users started to use Nusameal","Users login to Nusameal correct email password","SUCCESS","2023-06-22T14:44:50.2313714+07:00[Asia/Jakarta]","0.0","1.01"
