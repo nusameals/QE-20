@@ -1,5 +1,3 @@
-Starter\NusaMeals\Authentication\Login.class
-Starter\CucumberTestSuite.class
-Starter\NusaMeals\Authentication\RegisterAdmin.class
-Starter\stepdefinitions\LoginSteps.class
-Starter\NusaMeals\Authentication\RegisterUser.class
+starter\stepdefinitions\ParameterDefinitions.class
+starter\stepdefinitions\NusamealStepDefinitions.class
+starter\CucumberTestSuite.class

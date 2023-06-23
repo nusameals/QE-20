@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Authentication","Register User using a valid full name, email and password","FAILURE","2023-06-20T18:11:13.5133891+07:00[Asia/Krasnoyarsk]","0.0","4.3"
-"Authentication","Register Admin using a valid full name, email and password","FAILURE","2023-06-20T18:11:17.8335867+07:00[Asia/Krasnoyarsk]","0.0","0.67"
+"Users started to use Nusameal","Users register to Nusameal","FAILURE","2023-06-22T14:44:43.6095467+07:00[Asia/Jakarta]","0.0","6.49"
