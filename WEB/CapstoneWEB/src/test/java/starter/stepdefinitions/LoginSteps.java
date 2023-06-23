@@ -17,7 +17,7 @@ public class LoginSteps {
 
     @Given("I am on the login page")
     public void onLoginPage(){
-        login.openUrl("https://dev--guileless-sorbet-b4d474.netlify.app/admin");
+        login.openUrl("https://nusameals.netlify.app/admin");
         login.validateOnLoginPage();
     }
 
@@ -35,8 +35,8 @@ public class LoginSteps {
     }
     @Then("I am on the home page")
     public void goToHomePage(){
-//        login.openUrl("https://dev--guileless-sorbet-b4d474.netlify.app/admin");
-        homePage.validateOnHomePage();
+//        login.openUrl("https://nusameals.netlify.app/dashboard");
+       homePage.validateOnHomePage();
     }
 
     @Then("I can see error message {string}")
