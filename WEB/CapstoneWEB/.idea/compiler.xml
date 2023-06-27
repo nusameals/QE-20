@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MiniProject" />
+        <module name="CapstoneWEB" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CapstoneWEB" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
