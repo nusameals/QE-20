@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","user input with valid Username and password","ERROR","2023-06-19T19:50:38.6070431+07:00[Asia/Krasnoyarsk]","0.0","15.32"
-"Login","user input with valid Username and invalid password","ERROR","2023-06-19T19:50:54.6684743+07:00[Asia/Krasnoyarsk]","0.0","13.74"
-"Login","user input with invalid Username and valid password","ERROR","2023-06-19T19:51:09.2164361+07:00[Asia/Krasnoyarsk]","0.0","11.53"
+"Login","user input with valid Username and password","SUCCESS","2023-06-27T12:42:06.863477+07:00[Asia/Krasnoyarsk]","0.0","10.66"
+"Login","user does not enter the Username and Password","SUCCESS","2023-06-27T12:42:36.1007142+07:00[Asia/Krasnoyarsk]","0.0","12.58"
+"Login","user does not enter the Username and enter valid Password","SUCCESS","2023-06-27T12:42:49.0669519+07:00[Asia/Krasnoyarsk]","0.0","13.66"
+"Login","user enter valid Username and does not  enter Password","SUCCESS","2023-06-27T12:43:03.1499795+07:00[Asia/Krasnoyarsk]","0.0","10.41"

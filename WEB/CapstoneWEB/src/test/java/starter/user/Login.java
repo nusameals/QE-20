@@ -7,18 +7,19 @@ import org.openqa.selenium.By;
 
 public class Login extends PageObject {
     private By UsernameField(){
-        return By.xpath("//input[@id='input-18']");
+        return By.xpath("//*[@id=\"login-form_email_or_username\"]");
     }
     private By PasswordField(){
-        return By.xpath("//input[@id='input-21']");
+        return By.xpath("//*[@id=\"login-form_password\"]");
     }
     private By SigInButton(){
-        return By.xpath("//button[@class='v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']");
+        return By.xpath("/html/body/div/div/div/div/div/div[2]/div/form/button/span");
     }
 
     private By errorMessage(){
-        return By.xpath("//div[@class='v-alert v-sheet theme--light elevation-2 v-alert--border v-alert--border-top']");
+        return By.xpath("/html/body/div/div/div/div/div/div[2]/div/form/button/span");
     }
+
 
     @Step
     public static OpenUrl url(String targetUrl){
